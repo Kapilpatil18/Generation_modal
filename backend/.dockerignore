@@ -1,0 +1,7 @@
+.env
+app.db
+app.db-*
+venv/
+__pycache__/
+*.pyc
+tests/
