@@ -1,5 +1,39 @@
-# Auto detect text files and perform LF normalization
-* text=auto
-/outputs
-/build
-/src
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+.venv/
+venv/
+*.egg-info/
+dist/
+build/
+
+# Environment variables — NEVER commit these
+.env
+*.env
+backend/app.db
+backend/app.db-*
+
+# Node
+node_modules/
+dist/
+.DS_Store
+
+# Media files — too large for git
+*.mp4
+*.avi
+*.mov
+*.pth
+*.bin
+*.safetensors
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# Logs
+*.log
+celerybeat-schedule
